@@ -74,7 +74,7 @@ namespace AStarProject
                     /*InitGrid();*/
                     var tile = new asTile(x, y, TileSize, TileType.Normal);
                     _TilesCollection.Add(tile);
-                    Controls.Add(tile);
+                    Controls.Add(tile); 
                 }
             }
         }
